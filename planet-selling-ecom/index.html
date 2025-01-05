@@ -32,9 +32,10 @@
         ul li a{
             margin: 0 5px;
             border: 2px solid white;
-            padding: 0px 10px;
+            padding: 5px 10px;
             text-decoration: none;
             border-radius: 50px;
+            cursor: pointer;
         }
         .logo{
             border: 2px solid white;
@@ -49,14 +50,22 @@
             background-color: black;
             color: white;
         }
-        main{
+        /* main{
             display: flex;
             justify-content: space-evenly;
             height: 90vh;
             align-items: center;
             margin: 0px 150px;
             flex-wrap: wrap;
-        }
+        } */
+         .firstContainer{
+            display: flex;
+            justify-content: space-evenly;
+            height: 45vh;
+            align-items: center;
+            margin: 0px 150px;
+            flex-wrap: wrap;
+         }
         main h2{
             font-size: 30px;
             text-transform: uppercase;
@@ -92,6 +101,7 @@
             color: black;
             border-radius: 50px;
             font-weight: 700;
+            cursor: pointer;
         }
         .btn:hover{
             background-color: #2c2c2c;
@@ -115,6 +125,7 @@
         </nav>
     </header>
     <main>
+        <div class="firstContainer">
         <div class="contentLeft">
             <h2>Mercury</h2>
         </div>
@@ -125,6 +136,31 @@
         <div class="contentRight">
             <img src="mercury.jpg" class="mercury">
         </div>
+    </div>
+    <div class="firstContainer">
+        <div class="contentLeft">
+            <h2>Mars</h2>
+        </div>
+        <div class="contentMid">
+            <p>Mars is the fourth planet from the sun in our solar system. Also, it is the second smallest planet in our solar system. The possibility of life on mars has aroused the interest of scientists for many years. A major reason for this interest is due to the similarity and proximity of the planet to Earth.</p>
+            <button class="btn">  Buy Now</button>
+        </div>
+        <div class="contentRight">
+            <img src="mars.jpg" class="mercury">
+        </div>
+    </div>
+    <div class="firstContainer">
+        <div class="contentLeft">
+            <h2>Jupyter</h2>
+        </div>
+        <div class="contentMid">
+            <p>Jupiter has a faint ring system made up of three main parts: an inner halo, a main ring, and an outer gossamer ring. The rings are made of dust, unlike Saturn's rings which are made of ice.</p>
+            <button class="btn">  Buy Now</button>
+        </div>
+        <div class="contentRight">
+            <img src="jupyter.jpeg" class="mercury">
+        </div>
+    </div>
     </main>
 </body>
 </html>
